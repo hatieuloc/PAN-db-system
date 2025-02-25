@@ -16,7 +16,7 @@ import java.io.BufferedWriter;
 public class Ha_Loc_IP_Task5b {
 
     // Database credentials
-    final static String HOSTNAME = "ha0024.database.windows.net";
+    final static String HOSTNAME = "user.database.windows.net";
     final static String DBNAME = "cs-dsa-4513-sql-db";
     final static String USERNAME = "";
     final static String PASSWORD = "";
