@@ -1,5 +1,5 @@
 # PAN-db-system
-I. DESCRIPTION\n
+##I. DESCRIPTION
 The Patient Assistance Network (PAN) is a non-profit organization that provides support and care for patients. PAN needs to implement a database system to keep track of the personnel necessary to support the organization. In this project, your task will be to design and implement this database system. The information that needs to be stored in the database is described in this section.
 
 There are many categories of people that need to be tracked in the PAN database. Each person can fall into one or more than one of the following categories: clients, volunteers, employees, and donors. PAN tracks the name, social security number, gender, and profession of each person. In addition, PAN stores the contact information for each person consisting of a mailing address, email address, and phone number. PAN also sends a monthly newsletter to people on its mailing list, so the database should indicate whether or not each person in the database is on that list. Finally, the system should have the ability to store a list of emergency contacts for the people in the database. This information should record the name and phone number for each of the emergency contacts along with their respective relationship to the person in the database.
@@ -30,7 +30,7 @@ Queries and Their Frequencies for the PAN Database System
 14. Increase the salary by 10% of all employees to whom more than one team must report. (1/year)
 15. Delete all clients who do not have health insurance and whose value of importance for transportation is less than 5 (4/year).
 
-II. TASKS TO BE PERFORMED
+##II. TASKS TO BE PERFORMED
 Task 1: Design an ER diagram to represent the PAN database defined in Section I.
 Task 2: Convert the ER diagram in Task 1 to a Relational Database (i.e. a set of relational schemas).
 Task 3: Write SQL statements for all queries (1-15) defined in part I. Write a Java application program that uses JDBC and Azure SQL Database to implement all SQL queries (options 1-15), two additional queries for import and export (options 16- 17), and the “Quit” option (option 18) as specified in the menu given below. You are free to pick any file format you wish to use for file import and export options. The program will stop execution only when the user chooses the “Quit” option; otherwise, all options must be available for the user to choose at all times.
