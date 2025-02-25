@@ -36,15 +36,12 @@ Queries and Their Frequencies for the PAN Database System
 - Task 3: Write SQL statements for all queries (1-15) defined in part I. Write a Java application program that uses JDBC and Azure SQL Database to implement all SQL queries (options 1-15), two additional queries for import and export (options 16- 17), and the “Quit” option (option 18) as specified in the menu given below. You are free to pick any file format you wish to use for file import and export options. The program will stop execution only when the user chooses the “Quit” option; otherwise, all options must be available for the user to choose at all times.
 
 WELCOME TO THE PATIENT ASSISTANT NETWORK DATABASE SYSTEM
-(1) Description of query 1
-(2) Description of query 2
-.
-.
-.
-(15) Description of query 15
-(16) Import: enter new teams from a data file until the file is empty (the user must be asked
-to enter the input file name).
-(17) Export: Retrieve names and mailing addresses of all people on the mailing list and
-output them to a data file instead of screen (the user must be asked to enter the output file
-name).
-(18) Quit
+- (1) Description of query 1
+- (2) Description of query 2
+- 
+- 
+- 
+- (15) Description of query 15
+- (16) Import: enter new teams from a data file until the file is empty (the user must be asked to enter the input file name).
+- (17) Export: Retrieve names and mailing addresses of all people on the mailing list and output them to a data file instead of screen (the user must be asked to enter the output file name).
+- (18) Quit
