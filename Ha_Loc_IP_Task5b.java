@@ -18,11 +18,11 @@ public class Ha_Loc_IP_Task5b {
     // Database credentials
     final static String HOSTNAME = "ha0024.database.windows.net";
     final static String DBNAME = "cs-dsa-4513-sql-db";
-    final static String USERNAME = "ha0024";
-    final static String PASSWORD = "Julie02242018";
+    final static String USERNAME = "";
+    final static String PASSWORD = "";
 
     // Database connection string
-    final static String URL = String.format("jdbc:sqlserver://ha0024-sql-server.database.windows.net:1433;database=cs-dsa-4513-sql-db;user=ha0024@ha0024-sql-server;password={Julie02242018};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;",
+    final static String URL = String.format("jdbc:sqlserver://user-sql-server.database.windows.net:1433;database=cs-dsa-4513-sql-db;user=user@user-sql-server;password={};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;",
             HOSTNAME, DBNAME, USERNAME, PASSWORD);
 
  // Query templates
