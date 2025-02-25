@@ -1,5 +1,5 @@
 # PAN-db-system
-I. DESCRIPTION
+I. DESCRIPTION\n
 The Patient Assistance Network (PAN) is a non-profit organization that provides support and care for patients. PAN needs to implement a database system to keep track of the personnel necessary to support the organization. In this project, your task will be to design and implement this database system. The information that needs to be stored in the database is described in this section.
 
 There are many categories of people that need to be tracked in the PAN database. Each person can fall into one or more than one of the following categories: clients, volunteers, employees, and donors. PAN tracks the name, social security number, gender, and profession of each person. In addition, PAN stores the contact information for each person consisting of a mailing address, email address, and phone number. PAN also sends a monthly newsletter to people on its mailing list, so the database should indicate whether or not each person in the database is on that list. Finally, the system should have the ability to store a list of emergency contacts for the people in the database. This information should record the name and phone number for each of the emergency contacts along with their respective relationship to the person in the database.
